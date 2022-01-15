@@ -69,7 +69,7 @@
                 </size_scale_keys>
                 <opacity_keys loop="false">
                     <key t="0" v="255"/>
-                    <key t="1" v="180"/>
+                    <key t="1" v="150"/>
                     <key t="5" v="0"/>
                 </opacity_keys>
             </billboard>
