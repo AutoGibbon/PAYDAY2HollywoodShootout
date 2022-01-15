@@ -57,7 +57,7 @@
                     <key t="0.90643274784088" v="4 4"/>
                 </size_scale_keys>
                 <opacity_keys loop="false">
-                    <key t="0.02581755630672" v="100"/>
+                    <key t="0.02581755630672" v="200"/>
                     <key t="0.9941520690918" v="0"/>
                 </opacity_keys>
             </billboard>
