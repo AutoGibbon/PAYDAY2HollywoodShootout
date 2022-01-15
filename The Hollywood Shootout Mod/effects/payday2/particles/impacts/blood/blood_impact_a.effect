@@ -101,7 +101,7 @@
                 </size_keys>
 				<opacity_keys loop="false">
                     <key t="0" v="240"/>
-                    <key t="7" v="100"/>
+                    <key t="7" v="150"/>
                     <key t="10" v="0"/>
                 </opacity_keys>
             </billboard>
