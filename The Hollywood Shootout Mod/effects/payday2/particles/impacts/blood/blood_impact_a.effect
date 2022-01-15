@@ -69,7 +69,7 @@
                 </size_scale_keys>
                 <opacity_keys loop="false">
                     <key t="0" v="255"/>
-                    <key t="1" v="150"/>
+                    <key t="1" v="180"/>
                     <key t="5" v="0"/>
                 </opacity_keys>
             </billboard>
@@ -97,7 +97,7 @@
             <billboard texture="effects/textures/effects_atlas" intensity="match" billboard_type="rotation_aligned" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op" origo="1 1" per_particle_age="false" size_input="keys" color_input="constant" color="169 16 30" opacity_input="keys" rotation_input="channel" rotation_axis="0 0 1" uv_size="0.0625 0.0625" uv_offset_input="channel">
                 <size_keys loop="false">
                     <key t="0.0032959999516606" v="2 16"/>
-                    <key t="0.5" v="7.2 7.2"/>
+                    <key t="0.5" v="3.6 3.6"/>
                 </size_keys>
 				<opacity_keys loop="false">
                     <key t="0" v="240"/>

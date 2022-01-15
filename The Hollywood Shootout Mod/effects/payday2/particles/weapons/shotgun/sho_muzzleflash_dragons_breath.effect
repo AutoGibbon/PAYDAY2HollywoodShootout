@@ -21,7 +21,7 @@
             </billboard>
         </visualizerstack>
     </atom>
-    <atom name="sparks forward" min_size="40" max_size="100" lifetime="1" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="kill" cull_gracetime="1" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+    <atom name="sparks forward" min_size="20" max_size="50" lifetime="1" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="kill" cull_gracetime="1" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
         <effect_spawn_once_drag event="collision" effect="effects/payday2/particles/impacts/sparks/sparks_random_02_slow"/>
         <initializerstack>
             <boxrandomvelocity relative="effect" min="-110 2000 -110" max="110 2600 110"/>
@@ -40,8 +40,8 @@
             <billboard texture="effects/textures/add_atlas_df" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op_add" origo="0.5 0.5" per_particle_age="false" size_input="scaled_channel" color_input="constant" color="255 185 106.00000762939" opacity_input="keys" rotation_input="channel" rotation_axis="0 0 0" uv_size="0.25 0.0625" uv_offset_input="constant" uv_offset="0 0.0625">
                 <size_scale_keys loop="false">
                     <key t="0" v="0 0"/>
-                    <key t="0.26640927791595" v="0.80000001192093 0.80000001192093"/>
-                    <key t="0.61003863811493" v="1 1"/>
+                    <key t="0.26640927791595" v="1.6 1.6"/>
+                    <key t="0.61003863811493" v="2 2"/>
                 </size_scale_keys>
                 <opacity_keys loop="false">
                     <key t="0" v="255"/>
@@ -51,7 +51,7 @@
             </billboard>
         </visualizerstack>
     </atom>
-    <atom name="sparks forward0" min_size="15" max_size="50" lifetime="1" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="kill" cull_gracetime="1" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+    <atom name="sparks forward0" min_size="7" max_size="25" lifetime="1" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="kill" cull_gracetime="1" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
         <initializerstack>
             <boxrandomvelocity relative="effect" min="-410 700 -310" max="300 900 310"/>
             <boxrandomaspectsize size="1 1" min="1" max="2"/>
@@ -69,7 +69,7 @@
             <billboard texture="effects/textures/add_atlas_df" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op_add" origo="0.5 0.5" per_particle_age="false" size_input="scaled_channel" color_input="constant" color="255 185 106.00000762939" opacity_input="keys" rotation_input="channel" rotation_axis="0 0 0" uv_size="0.25 0.0625" uv_offset_input="constant" uv_offset="0 0.0625">
                 <size_scale_keys loop="false">
                     <key t="0" v="1 1"/>
-                    <key t="0.4475043118" v="0.80000001192093 0.80000001192093"/>
+                    <key t="0.4475043118" v="1.6 1.6"/>
                     <key t="0.76075732707977" v="0 0"/>
                 </size_scale_keys>
                 <opacity_keys loop="false">

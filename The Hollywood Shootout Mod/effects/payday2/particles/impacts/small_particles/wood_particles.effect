@@ -34,7 +34,7 @@
                     <key t="4" v="10"/>
                 </rotation_scale_keys>
                 <size_keys loop="false">
-                    <key t="0.0032959999516606" v="3 2"/>
+                    <key t="0.0032959999516606" v="5 3.4"/>
                 </size_keys>
             </billboard>
         </visualizerstack>
