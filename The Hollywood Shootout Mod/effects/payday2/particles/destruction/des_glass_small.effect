@@ -66,7 +66,7 @@
                     <key t="2" v="130 130"/>
                 </size_keys>
                 <opacity_keys loop="false">
-                    <key t="0.85897439718246" v="115"/>
+                    <key t="0.85897439718246" v="200"/>
                     <key t="2" v="0"/>
                 </opacity_keys>
                 <rotation_scale_keys loop="false">
@@ -112,7 +112,7 @@
                     <key t="0.75" v="4 4"/>
                 </size_scale_keys>
                 <opacity_keys loop="false">
-                    <key t="0.14814814925194" v="25"/>
+                    <key t="0.14814814925194" v="50"/>
                     <key t="0.80000001192093" v="0"/>
                 </opacity_keys>
             </billboard>

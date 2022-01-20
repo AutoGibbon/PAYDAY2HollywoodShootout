@@ -32,7 +32,7 @@
             </billboard>
         </visualizerstack>
     </atom>
-    <atom name="sparks2" min_size="10" max_size="60" lifetime="10" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="update" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="50" grab_backfacing="false" timeline="">
+    <atom name="sparks2" min_size="5" max_size="30" lifetime="10" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="update" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="50" grab_backfacing="false" timeline="">
         <effect_spawn event="collision" effect="effects/payday2/particles/impacts/sparks/sparks_random_02_slow"/>
         <initializerstack>
             <boxrandomposition relative="effect" min="1 2 3" max="1 2 3"/>
@@ -54,8 +54,8 @@
         <visualizerstack>
             <billboard texture="effects/textures/effects_atlas" intensity="megatron" billboard_type="normal_locked" rotation_channel="world_rotation" blend_mode="add" render_template="effect_op_glow" origo="1 1" per_particle_age="false" size_input="keys" color_input="constant" color="249.00001525879 218.00001525879 153" opacity_input="keys" rotation_input="constant" rotation="0" rotation_axis="0 0 0" uv_size="0.0625 0.0625" uv_offset_input="channel">
                 <size_keys loop="false">
-                    <key t="0" v="2 12"/>
-                    <key t="2.8657486438751" v="1 1"/>
+                    <key t="0" v="3 16"/>
+                    <key t="2.8657486438751" v="2 2"/>
                 </size_keys>
                 <opacity_keys loop="false">
                     <key t="0" v="255"/>
@@ -65,7 +65,7 @@
             </billboard>
         </visualizerstack>
     </atom>
-    <atom name="sparks3" min_size="20" max_size="60" lifetime="20" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="update" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="50" grab_backfacing="false" timeline="">
+    <atom name="sparks3" min_size="10" max_size="30" lifetime="20" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="update" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="50" grab_backfacing="false" timeline="">
         <effect_spawn event="collision" effect="effects/payday2/particles/impacts/sparks/sparks_random_02_slow"/>
         <initializerstack>
             <boxrandomposition relative="effect" min="1 2 3" max="1 2 3"/>
@@ -87,8 +87,8 @@
         <visualizerstack>
             <billboard texture="effects/textures/effects_atlas" intensity="megatron" billboard_type="normal_locked" rotation_channel="world_rotation" blend_mode="add" render_template="effect_op_glow" origo="1 1" per_particle_age="false" size_input="keys" color_input="constant" color="249.00001525879 218.00001525879 153" opacity_input="keys" rotation_input="constant" rotation="0" rotation_axis="0 0 0" uv_size="0.0625 0.0625" uv_offset_input="channel">
                 <size_keys loop="false">
-                    <key t="0" v="2 12"/>
-                    <key t="2.8657486438751" v="1 1"/>
+                    <key t="0" v="3 16"/>
+                    <key t="2.8657486438751" v="2 2"/>
                 </size_keys>
                 <opacity_keys loop="false">
                     <key t="0" v="255"/>
