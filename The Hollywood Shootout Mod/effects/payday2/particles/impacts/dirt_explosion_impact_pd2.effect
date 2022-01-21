@@ -1,5 +1,5 @@
 <effect force_synch="false">
-    <atom name="Dust - dark dirt" min_size="3" max_size="3" lifetime="3" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+    <atom name="Dust - dark dirt" min_size="3" max_size="3" lifetime="2.2" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
         <initializerstack>
             <boxrandomposition relative="effect" min="-30 -30 0" max="30 30 25"/>
             <boxrandomvelocity relative="effect" min="-50 -50 40" max="50 50 600"/>
@@ -85,7 +85,7 @@
             <model model="effects/payday2/particles/explosions/explosion_parts/concrete_shatter_tiny" object="g_g" material_config="effects/payday2/particles/explosions/explosion_parts/concrete_shatter"/>
         </visualizerstack>
     </atom>
-    <atom name="smoke lines" min_size="4" max_size="4" lifetime="1" random_start_time="false" start_time="0.05" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="1" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+    <atom name="smoke lines" min_size="4" max_size="4" lifetime="0.5" random_start_time="false" start_time="0.05" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="1" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
         <initializerstack>
             <boxrandomvelocity relative="effect" min="0 0 0" max="0 0 0"/>
             <boxrandomangle min="0" max="0"/>
