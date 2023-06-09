@@ -18,7 +18,7 @@
                     <key t="8" v="0"/>
                 </scale_keys>
             </scaledvelocityintegrator>
-            <constantacceleration relative="world" acceleration="0 0 -300"/>
+            <constantacceleration relative="world" acceleration="0 0 -220"/>
             <ager/>
         </simulatorstack>
         <visualizerstack>

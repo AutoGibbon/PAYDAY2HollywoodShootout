@@ -15,7 +15,7 @@
                     <key t="0" v="1"/>
                 </scale_keys>
             </scaledvelocityintegrator>
-            <constantacceleration relative="world" acceleration="0 0 -300"/>
+            <constantacceleration relative="world" acceleration="0 0 -220"/>
             <ager/>
             <particleworldcollision radius="1" elasticity="0.11000000238419"/>
         </simulatorstack>
