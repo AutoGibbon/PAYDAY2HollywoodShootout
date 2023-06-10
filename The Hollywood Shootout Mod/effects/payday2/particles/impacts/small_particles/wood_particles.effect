@@ -21,7 +21,7 @@
             <particleworldcollision radius="3" elasticity="0.11000000238419"/>
         </simulatorstack>
         <visualizerstack>
-            <billboard texture="effects/textures/effects_atlas" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op" origo="2 0.5" per_particle_age="true" size_input="channel" color_input="constant" color="120 117 56" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.0625 0.0625" uv_offset_input="channel">
+            <billboard texture="effects/textures/effects_atlas" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op" origo="2 0.5" per_particle_age="true" size_input="channel" color_input="constant" color="120 85 56" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 1" uv_size="0.0625 0.0625" uv_offset_input="channel">
                 <opacity_keys loop="false">
                     <key t="0" v="255"/>
                     <key t="1.8158347606659" v="255"/>
