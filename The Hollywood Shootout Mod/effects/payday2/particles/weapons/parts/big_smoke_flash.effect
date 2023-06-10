@@ -1,5 +1,5 @@
 <effect force_synch="false">
-    <atom name="smoke_trail_3rd" min_size="15" max_size="11" lifetime="5" random_start_time="false" start_time=".2" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+    <atom name="smoke_trail_3rd" min_size="0" max_size="3" lifetime="5" random_start_time="false" start_time=".2" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
         <initializerstack>
             <boxrandomposition relative="effect" min="-1 -1 -1" max="1 1 1"/>
             <boxrandomvelocity relative="effect" min="0 0 8" max="0 0 3"/>
@@ -83,7 +83,7 @@
             </billboard>
         </visualizerstack>
     </atom>
-    <atom name="Dust Puff_2" min_size="1" max_size="3" lifetime="7" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+    <atom name="Dust Puff_2" min_size="0" max_size="1" lifetime="7" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
         <initializerstack>
             <boxrandomposition relative="effect" min="0 0 0" max="0 25 0"/>
             <boxrandomvelocity relative="effect" min="-12 10 -12" max="12 35 5"/>
