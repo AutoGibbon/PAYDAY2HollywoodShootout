@@ -1,0 +1,34 @@
+<effect force_synch="false">
+    <atom name="sparks0" min_size="1" max_size="1" lifetime="2" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="initialize" cull_policy="update_render" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
+        <initializerstack>
+            <boxrandomposition relative="effect" min="0 60 0" max="2 70 1"/>
+            <boxrandomage min="1" max="2"/>
+            <boxrandomrotation relative="effect" min="0 0 0" max="0 0 0" min_rot="0" max_rot="3"/>
+            <boxrandomvelocity relative="effect" min="-5 10 -15" max="5 15 -10"/>
+            <boxrandomangle min="0" max="1"/>
+            <boxrandomanglevelocity min="5" max="-5"/>
+        </initializerstack>
+        <simulatorstack>
+            <velocityintegrator channel="world"/>
+            <ager/>
+            <anglevelocityintegrator/>
+            <constantacceleration relative="world" acceleration="20 0 50"/>
+        </simulatorstack>
+        <visualizerstack>
+            <billboard texture="effects/textures/bullet_hit/e_dist_heat" intensity="dimlight" billboard_type="camera_facing" rotation_channel="rotation" blend_mode="add" render_template="heat_shimmer" origo="0.5 0.5" per_particle_age="false" size_input="keys" color_input="constant" color="255 255 255" opacity_input="keys" rotation_input="channel" rotation_axis="0 0 0" uv_size="1 1" uv_offset_input="constant" uv_offset="0 0">
+                <size_keys loop="false">
+                    <key t="0" v="0 0"/>
+                    <key t="0.28399300575256" v="40 40"/>
+                    <key t="3" v="100 100"/>
+                    <key t="4" v="0 0"/>
+                </size_keys>
+                <opacity_keys loop="false">
+                    <key t="0" v="0"/>
+                    <key t="0.44750428199768" v="255"/>
+                    <key t="1.5920827388763" v="20"/>
+                    <key t="3" v="0"/>
+                </opacity_keys>
+            </billboard>
+        </visualizerstack>
+    </atom>
+</effect>
