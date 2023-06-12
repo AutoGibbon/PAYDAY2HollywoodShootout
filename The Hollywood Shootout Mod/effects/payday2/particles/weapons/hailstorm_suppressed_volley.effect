@@ -1,4 +1,14 @@
 <effect force_synch="false">
+    <use_random>
+        <effect name="effects/payday2/particles/weapons/parts/empty"/>
+        <effect name="effects/payday2/particles/weapons/fps_parts/fps_small_silence_blue_flash"/>
+        <effect name="effects/payday2/particles/weapons/fps_parts/fps_small_silence_flash"/>
+    </use_random>
+    <use_random>
+        <effect name="effects/payday2/particles/weapons/parts/empty"/>
+        <effect name="effects/payday2/particles/weapons/fps_parts/fps_small_silence_blue_flash"/>
+        <effect name="effects/payday2/particles/weapons/fps_parts/fps_small_silence_flash"/>
+    </use_random>
     <atom name="locked_flash" min_size="1" max_size="1" lifetime="0.02" random_start_time="false" start_time="0" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
         <initializerstack>
             <localboxrandomposition min="0 8 0" max="0 10 0"/>
@@ -231,48 +241,6 @@
                     <key t="0.42533081769943" v="127"/>
                     <key t="0.75614368915558" v="0"/>
                 </opacity_keys>
-            </billboard>
-        </visualizerstack>
-    </atom>
-    <atom name="flames0" min_size="100" max_size="100" lifetime="5" random_start_time="false" start_time="0.1" preroll="0" inherit_velocity_multiplier="1" fade_in_start="-1" fade_in_length="0" fade_out_start="-1" spawn_cull_policy="kill" cull_policy="kill" cull_gracetime="0" max_particle_radius="-1" soundbank="" cue="" ambient="false" grab_relative="effect" grab_pos="0 0 0" grab_radius="200" grab_backfacing="false" timeline="">
-        <initializerstack>
-            <boxrandomposition relative="effect" min="0 0 0" max="0 0 0"/>
-            <boxrandomvelocity relative="effect" min="0 0 0" max="0 0 0"/>
-            <boxrandomaspectsize size="3 3" min="1" max="3"/>
-            <boxrandomangle min="0" max="360"/>
-            <boxrandomrotation relative="effect" min="-10 -10 1" max="10 10 1" min_rot="0" max_rot="365"/>
-            <boxrandomuvoffset uv_size="1 1" frame_start="1 1" primary_step_direction="+x" secondary_step_direction="+y" num_frames="4"/>
-            <constantage age="10"/>
-        </initializerstack>
-        <simulatorstack>
-            <velocityintegrator channel="world"/>
-            <teleporter name="" trigger_teleport="time" lifetime_input="constant" particle_lifetime="1" teleport_cap="10" current_position="true" channel="world" normal_variation="0" teleport_event="false" positioner="circle">
-                <circle radius="0.25" on_edge="false"/>
-                <normal min_velocity="0.05" max_velocity="1"/>
-            </teleporter>
-            <constantacceleration relative="world" acceleration="5 0 10"/>
-            <ager/>
-        </simulatorstack>
-        <visualizerstack>
-            <billboard texture="effects/payday2/textures/flares/glow_cloudy_edf" intensity="reddot" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="add" render_template="effect_op_add" origo="0.5 0.5" per_particle_age="false" size_input="scaled_channel" color_input="keys" opacity_input="keys" rotation_input="scaled_channel" rotation_axis="0 0 0" uv_size="1 1" uv_offset_input="channel">
-                <size_scale_keys loop="false">
-                    <key t="0" v="0.10000000149012 0.10000000149012"/>
-                    <key t="0.79094099998474" v="0.5 0.5"/>
-                </size_scale_keys>
-                <color_keys loop="false">
-                    <key t="0" v="255 139 23"/>
-                    <key t="1.0849673748016" v="255 255 255"/>
-                    <key t="3.7516341209412" v="0 0 0"/>
-                </color_keys>
-                <opacity_keys loop="false">
-                    <key t="0.54901963472366" v="0"/>
-                    <key t="2.0522875785828" v="10"/>
-                    <key t="5" v="0"/>
-                </opacity_keys>
-                <rotation_scale_keys loop="false">
-                    <key t="0" v="0.0049999998882413"/>
-                    <key t="2.4956970214844" v="0.0070000002160668"/>
-                </rotation_scale_keys>
             </billboard>
         </visualizerstack>
     </atom>
