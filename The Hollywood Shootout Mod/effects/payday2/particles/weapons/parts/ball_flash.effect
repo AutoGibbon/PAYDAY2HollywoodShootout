@@ -18,9 +18,9 @@
         <visualizerstack>
             <billboard texture="effects/textures/effects_atlas" intensity="identity" billboard_type="camera_facing" rotation_channel="world_rotation" blend_mode="normal" render_template="effect_op" origo="0.5 0.5" per_particle_age="false" size_input="scaled_channel" color_input="constant" color="150 150 150" opacity_input="keys" rotation_input="channel" rotation_axis="1 0 5" uv_size="0.25 0.25" uv_offset_input="constant" uv_offset="0.75 0.5">
                 <size_scale_keys loop="false">
-                    <key t="1.7039586305618" v="5 8"/>
-                    <key t="2.4870913028717" v="6 9"/>
-                    <key t="5" v="11 12"/>
+                    <key t="1.7039586305618" v="2 2"/>
+                    <key t="2.4870913028717" v="4 3"/>
+                    <key t="5" v="3 4"/>
                 </size_scale_keys>
                 <opacity_keys loop="false">
                     <key t="1.9018933773041" v="0"/>
