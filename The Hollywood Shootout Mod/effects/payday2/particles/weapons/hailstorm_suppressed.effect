@@ -1,7 +1,7 @@
 <effect force_synch="false">
     <use_random>
         <effect name="effects/payday2/particles/weapons/fps_parts/fps_smoke_flash"/>
-        <effect name="effects/payday2/particles/weapons/parts/empty"/>
+        <effect name="effects/payday2/particles/weapons/fps_parts/fps_smoke_flash"/>
         <effect name="effects/payday2/particles/weapons/parts/empty"/>
         <effect name="effects/payday2/particles/weapons/parts/empty"/>
         <effect name="effects/payday2/particles/weapons/fps_parts/fps_small_silence_blue_flash"/>

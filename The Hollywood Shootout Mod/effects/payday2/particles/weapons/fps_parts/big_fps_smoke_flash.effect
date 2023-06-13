@@ -90,6 +90,7 @@
             <boxrandomangle min="1" max="30"/>
             <boxrandomaspectsize size="30 30" min="1" max="1"/>
             <boxrandomuvoffset uv_size="0.25 0.25" frame_start="0 0.5" primary_step_direction="+x" secondary_step_direction="+y" num_frames="4"/>
+            <boxrandomanglevelocity min="-3" max="3"/>
         </initializerstack>
         <simulatorstack>
             <velocityintegrator channel="world"/>
