@@ -1,8 +1,13 @@
 <effect force_synch="false">
     <use name="effects/payday2/particles/weapons/fps_parts/fps_combo_light_all"/>
 	<use name="effects/payday2/particles/weapons/fps_parts/fps_sparse_flash"/>
-	<use name="effects/payday2/particles/weapons/fps_parts/fps_smoke_flash"/>
 	<use name="effects/payday2/particles/weapons/fps_parts/fps_big_sparse"/>
+	
+    <use_random>
+        <use name="effects/payday2/particles/weapons/fps_parts/fps_smoke_flash"/>
+        <use name="effects/payday2/particles/weapons/parts/empty"/>
+    </use_random>
+
     <use_random>
         <effect name="effects/payday2/particles/weapons/fps_parts/fps_ball_flash"/>
         <effect name="effects/payday2/particles/weapons/fps_parts/fps_sparse_flash"/>
